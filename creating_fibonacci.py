@@ -25,14 +25,14 @@ def check(number):
     return False
 
 print("do you want to generate or check?")
-generateorcheck=input()
+generateorcheck = input()
 if generateorcheck=="generate":
     n = int(input("how many numbers?"))
     values = generate(n)
     print(values)
 elif generateorcheck=="check":
     n = int(input("what number do you want to check"))
-    print(check(55))
+    print(check(n))
 
 
 
